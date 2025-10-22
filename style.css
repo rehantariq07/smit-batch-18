@@ -1,0 +1,41 @@
+/* Apply background color to the whole page */
+body {
+    background-color: #358fa5;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Style all headings with different text colors */
+h1 {
+    color: darkblue;
+}
+h2 {
+    color: darkred;
+}
+
+/* Paragraphs with different color methods */
+.color-name {
+    color: blue; /* Using color name */
+}
+
+.color-hex {
+    color: #ff6600; /* Using HEX value */
+}
+
+.color-rgb {
+    color: rgb(100, 150, 200); /* Using RGB value */
+}
+
+/* Div with border and background color */
+.styled-div {
+    border: 2px solid #333;
+    background-color: #ff6600;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/* Explanation text */
+.explanation {
+    color: #444;
+    font-style: italic;
+}
